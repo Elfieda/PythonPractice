@@ -3,7 +3,6 @@ script, filename = argv
 txt = open(filename)
 print( f"Here's your file {filename} : " )
 print(txt.read())
-
 print("Type the file name again:")
 file_again = input(">")
 

@@ -9,14 +9,14 @@ print(f"So you are {age} old")
 print(f"So you are {height} tall")
 
 #parameters, unpacking, variables
-script,first, second, third = argv
+first, second, third = argv
 
-print("The script is called", script)
+#Eprint("The script is called", script)
 print("Your first variable is:", first)
 print("Your second variable is:", second)
 print("Your third variable is:", third)
 
 #promting and passing
-script, user_name = argv
+#script, user_name = argv
 
-print(f"hi {user_name}, I'm the {script} script")
+#print(f"hi {user_name}, I'm the {script} script")
